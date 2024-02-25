@@ -24,10 +24,6 @@ def list_multiply_for(a: list [int], b: list [int]) -> list[int]:
         i += 1
     return c
 
-def list_multiply_foreach(a: list[int], b:list [int]) -> list[int]:
-    
-
-
 a = [1, 2, 3]
 b = [4, 5, 6]
 
@@ -37,7 +33,4 @@ print(c_while)
 
 c_for = list_multiply_for(a, b)
 print(c_for)
-
-c_foreach = list_multiply_foreach(a, b)
-print(c_foreach)
 
