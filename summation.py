@@ -2,7 +2,7 @@
 # summation_while: Implements the summation using a while loop
 # summation_for: Implements the summation using a for loop
 
-def summation_while(n: int) -> int:
+def summation_while(n: float) -> float:
     total = 0
     i = 1
     while i<= n:
@@ -10,5 +10,8 @@ def summation_while(n: int) -> int:
         i += 1
     return total
 
-n = int(input("Enter a number: "))
+def summation_for(n: int) -> int:
+    pass
+
+n = float(input("Enter a number: "))
 print("Summation using while loop:", summation_while(n))
