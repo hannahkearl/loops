@@ -8,7 +8,7 @@ def square(x: float) -> float:
     return x * x
 
 def add_squares(x: float, y: float) -> float:
-    return add(square(x), square(y))
+    return (square(x) + square(y))
 
 num1 = float(input("Enter 1st number: "))
 num2 = float(input("Enter 2nd number: "))
